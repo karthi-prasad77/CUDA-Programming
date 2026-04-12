@@ -16,7 +16,7 @@ int main()
     vptr = &num;
 
     printf("Int Void Pointer: %d\n", *(int*)vptr);
-    // void pointer could not be dereference so that's y we cast into into
+    // void pointer could not be dereference so that's y we cast them into
     // then we can dereference the pointer
 
     vptr = &pi;
